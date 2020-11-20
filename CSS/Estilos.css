@@ -1,0 +1,106 @@
+/* <style>
+ body {
+   background-image: url("../imagenes/Harley-Davidson503-Web-Logo-1.png");
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+ }
+</style>
+*/
+
+h1
+{
+  background-color: #000000 ;
+  color: #FFFFFF  ;
+  text-align: center;
+}
+
+h2
+{
+  background-color: #000000 ;
+  color: #FFFFFF  ;
+  text-align: center;
+}
+
+h4
+{
+  background-color: #000000 ;
+  color: #FFFFFF  ;
+  text-align: left;
+}
+h5
+{
+  background-color: #000000 ;
+  color: #FFFFFF  ;
+  text-align: left;
+}
+
+
+
+
+.Titulos
+{
+  table-layout: auto;
+  background-color: #000000 ;
+  
+}
+
+.Modelos
+{
+  table-layout: auto;
+  background-color: #000000 ;
+  color: #FFFFFF  ;
+
+}
+/**.btnUno  
+{
+  background-color: 255, 87, 51  ;
+  color: ##FF5733 ;
+  
+  width: auto;
+
+}
+**/
+.boton_personalizado{
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #ff5733;
+  border-radius: 6px;
+  border: 2px solid #ffffff;
+}
+
+
+.row{
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  align-content: center;
+  font-family: arial;
+}
+
+.column2 {
+  padding: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}    
+
+.left, .right {
+  width: 30%;
+  background: whitesmoke;
+}
+
+.middle {
+  width: 30%;
+  background: whitesmoke;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
